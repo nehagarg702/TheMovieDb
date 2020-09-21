@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:title="Sort By" >
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/Title"
+                android:title="Title" />
+        <item
+            android:checkable="true"
+            android:id="@+id/popularity"
+            android:title="Popularity" />
+        <item
+            android:checkable="true"
+            android:id="@+id/vote_count"
+            android:title="Vote Count" />
+        <item
+            android:checkable="true"
+            android:id="@+id/vote_Average"
+            android:title="Vote Average" />
+            <item
+                android:checkable="true"
+                android:id="@+id/release_date"
+                android:title="Release Date" />
+
+            <item
+                android:checkable="true"
+                android:id="@+id/Revenue"
+                android:title="Revenue" />
+        </menu>
+    </item>
+</menu>

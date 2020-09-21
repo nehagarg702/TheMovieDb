@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/sortBy"
+            android:title="Sort By"/>
+    </group>
+    <group>
+    <item android:id="@+id/popularity"
+        android:title="Popularity"/>
+    <item android:id="@+id/vote_count"
+        android:title="Vote Count"/>
+    <item android:id="@+id/vote_Average"
+        android:title="Vote Average"/>
+        <item android:id="@+id/release_date"
+            android:title="Release Date"/>
+    </group>
+
+</menu>

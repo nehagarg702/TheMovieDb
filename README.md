@@ -1,0 +1,2 @@
+# TheMovieDb
+This is an sample app which fetch movie details from The Movie Db Api and show the movie details in recycler view. This sample app uses MVVM Architecture, Data Binding, Dagger and Drawer NavigationView Layout. This app by default sort the movies on the basis of popularity and allow the user to sort the movies on the basis of many feature after clicking on item in drawer navigation view layout.
